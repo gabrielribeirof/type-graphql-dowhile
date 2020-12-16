@@ -1,0 +1,25 @@
+{
+  "name": "type-graphql-dowhile",
+  "version": "1.0.0",
+  "repository": "https://github.com/gabrielribeirof/type-graphql-dowhile.git",
+  "author": "gabrielribeirof <ogabrielribeirof@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/shared/infra/main.ts"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^7.4.5",
+    "apollo-server": "^2.19.0",
+    "class-validator": "^0.12.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.8",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.10.3",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
